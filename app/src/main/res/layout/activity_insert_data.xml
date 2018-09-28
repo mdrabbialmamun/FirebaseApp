@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertData">
+    <EditText
+        android:id="@+id/edt_1"
+        android:hint="Product Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_below="@id/edt_1"
+        android:hint="Product Place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_3"
+        android:layout_below="@id/edt_2"
+        android:hint="Product Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/insert_btn"
+        android:layout_below="@+id/edt_3"
+        android:layout_width="wrap_content"
+        android:text="Edit"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
